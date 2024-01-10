@@ -1,0 +1,141 @@
+
+.ellipse1, .ellipse2, .krug1, .krug2, .krug3, .krug4, .krug5, .krug6, .krug7, .krug8, .kvadrat1, .kvadrat2, .kvadrat3, .pryam1, .pryam2, .pryam3 {
+    position: relative;}
+
+.krug1 {
+    width: 150px;
+    height: 150px;
+    background: #000;
+    border-radius: 50%;
+    top: -100px;
+    right: -760px;
+}
+
+.kvadrat1 {
+    width: 200px;
+    height: 200px;
+    background: #00FF00;
+    top: 350px;
+    right: -635px;
+}
+
+.kvadrat2 {
+    width: 80px;
+    height: 80px;
+    background: #63c7f8;
+    top: -230px;
+    right: -855px;
+}
+
+.krug2 {
+    width: 66px;
+    height: 66px;
+    background: #000;
+    border-radius: 50%;
+    top: -180px;
+    right: -640px;
+}
+
+.pryam1 {
+    width: 55px;
+    height: 130px;
+    background: #FF8C00;
+    top: -575px;
+    right: -700px;
+}
+
+.pryam2 {
+    width: 120px;
+    height: 300px;
+    background: #FF8C00;
+    top: 50px;
+    right: -835px;
+}
+
+.pryam3 {
+    width: 200px;
+    height: 170px;
+    background: #FF0000;
+    top: -545px;
+    right: -965px;
+}
+
+.krug3 {
+    width: 66px;
+    height: 66px;
+    background: #000;
+    border-radius: 50%;
+    top: -745px;
+    right: -1030px;
+}
+
+.kvadrat3 {
+    width: 200px;
+    height: 200px;
+    background: #00BFFF;
+    top: -745px;
+    right: -1175px;
+}
+
+.krug4 {
+    width: 66px;
+    height: 66px;
+    background: #000;
+    border-radius: 50%;
+    top: -810px;
+    right: -1247px;
+}
+
+.ellipse1 {
+    background: #B22222;
+    width: 200px;
+    height: 100px;
+    border-radius: 50% / 100% 100% 0 0;
+    top: -1145px;
+    right: -965px;
+}
+
+.ellipse2 {
+    background: #FFD700;
+    width: 200px;
+    height: 100px;
+    border-radius: 50% / 100% 100% 0 0;
+    top: -1275px;
+    right: -1175px;
+}
+
+.krug5 {
+    width: 66px;
+    height: 66px;
+    background: #00FFFF;
+    border-radius: 50%;
+    top: -1500px;
+    right: -730px;
+}
+
+.krug6 {
+    width: 66px;
+    height: 66px;
+    background: #00FFFF;
+    border-radius: 50%;
+    top: -1630px;
+    right: -820px;
+}
+
+.krug7 {
+    width: 70px;
+    height: 70px;
+    background: #00FFFF;
+    border-radius: 50%;
+    top: -1730px;
+    right: -920px;
+}
+
+.krug8 {
+    width: 90px;
+    height: 90px;
+    background: #00FFFF;
+    border-radius: 50%;
+    top: -1825px;
+    right: -1020px;
+}

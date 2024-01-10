@@ -1,0 +1,131 @@
+.krug1, .krug2, .krug3, .krug4 , .krug5, .krug6
+{position: relative;}
+
+
+.krug1 {
+    width: 80px;
+    height: 80px;
+    background: #C0C0C0;
+    border-radius: 50%;
+    top: 200px;
+    right: -250px;
+    animation-name: O2;
+    animation-duration: 2s;
+}
+
+.krug2 {
+    width: 80px;
+    height: 80px;
+    background: #00FFFF;
+    border-radius: 50%;
+    top: 400px;
+    right: -200px;
+    animation-name: H2;
+    animation-duration: 2s;
+}
+
+.krug3 {
+    width: 80px;
+    height: 80px;
+    background: #00FFFF;
+    border-radius: 50%;
+    top: 320px;
+    right: -300px;
+    animation-name: H21;
+    animation-duration: 2s;
+}
+
+.krug4 {
+    width: 80px;
+    height: 80px;
+    background: #00FFFF;
+    border-radius: 50%;
+    top: 40px;
+    right: -500px;
+    animation-name: H2O1;
+    animation-duration: 5s;
+}
+
+.krug5 {
+    width: 80px;
+    height: 80px;
+    background: #C0C0C0;
+    border-radius: 50%;
+    top: -170px;
+    right: -560px;
+    animation-name: H2O;
+    animation-duration: 5s;
+}
+
+.krug6 {
+    width: 80px;
+    height: 80px;
+    background: #00FFFF;
+    border-radius: 50%;
+    top: -40px;
+    right: -620px;
+    animation-name: H2O2;
+    animation-duration: 5s;
+}
+
+@keyframes O2 {
+    0% {
+top: 200px;
+}
+
+    100% {
+top: 340px
+  }
+}
+
+@keyframes H2 {
+    0% {
+        top: 400px;
+    }
+
+    100% {
+        top: 200px;
+    }
+}
+
+@keyframes H21 {
+    0% {
+        top: 320px;
+    }
+
+    100% {
+        top: 200px;
+    }
+}
+
+@keyframes H2O1 {
+    0% {
+         opacity: 0;
+         transform: translateX(-100%);
+       }
+    100% {
+            opacity: 1;
+            transform: translateX(0);
+         }
+}
+@keyframes H2O {
+    0% {
+         opacity: 0;
+         transform: translateX(-100%);
+       }
+    100% {
+            opacity: 1;
+            transform: translateX(0);
+         }
+}
+
+@keyframes H2O2 {
+    0% {
+         opacity: 0;
+         transform: translateX(-100%);
+       }
+    100% {
+            opacity: 1;
+            transform: translateX(0);
+         }
+}
